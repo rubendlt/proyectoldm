@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                url('https://news.lamusica.com/wp-content/uploads/sites/6/2023/02/download.jpeg') 
+                center/cover no-repeat;
+    background-attachment: fixed; 
+}
+
+p {
+    font-weight: 900; 
+}
