@@ -1,34 +1,80 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discografía</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Discografía - Karol G</title>
+    <link rel="stylesheet" href="karolg.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #800080;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .discography {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .album {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+        }
+        .album img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .album a {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #800080;
+        }
+        .album a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
-<h1 style="color: purple;">Discografía</h1>
-</br>
-
-<!-- Mañana Será Bonito (Bichota Season) -->
-<img src="https://m.media-amazon.com/images/I/41ER4CEIDyL._SX300_SY300_QL70_ML2_.jpg" width="200" height="200">
-<p><a href="https://open.spotify.com/intl-es/album/1f2q2JQ3GFwIrWch2JLC0u">Mañana será bonito (Bichota Season)</a></p></br></br>
-
-<!-- Mañana Será Bonito -->
-<img src="https://i.scdn.co/image/ab67616d0000b27382de1ca074ae63cb18fce335" width="200" height="200">
-<p><a href="https://open.spotify.com/intl-es/album/4kS7bSuU0Jm9LYMosFU2x5?si=DZmcfujjSxGu1TL6cNLreg">MAÑANA SERÁ BONITO</a></p></br></br>
-
-<!-- KG0516 -->
-<img src="https://static.fnac-static.com/multimedia/Images/FR/NR/1d/a8/bf/12560413/1540-1/tsp20210319145125/KG0516.jpg" width="200" height="200">
-<p><a href="https://open.spotify.com/intl-es/album/5CS8E6JVACItYto4OOJoPW?si=rHVu00ncS_qE6PgQdo6X1Q">KG0516</a></p></br></br>
-
-<!-- Ocean -->
-<img src="https://i.scdn.co/image/ab67616d0000b273813d0c955d8224bd5f919a75" width="200" height="200">
-<p><a href="https://open.spotify.com/intl-es/album/08uHazM9Ov0NvUqGUb5eQH?si=_Ix1NyMmTbO6fImPqOnWFw">Ocean</a></p></br></br>
-
-<!-- Unstoppable -->
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/ac/32/33ac328b-b70f-7a62-5416-21a498b75b44/17UM1IM33553.rgb.jpg/1200x1200bb.jpg" width="200" height="200">
-<p><a href="https://open.spotify.com/intl-es/album/1QOJpYD40Z7VURMJ9U71iL?si=9gr-JpPpRSmU9v6XndDJlg">Unstoppable</a></p>
+    <header>Discografía</header>
+    <main class="discography">
+        <section class="album">
+            <img src="https://m.media-amazon.com/images/I/41ER4CEIDyL._SX300_SY300_QL70_ML2_.jpg" alt="Mañana Será Bonito (Bichota Season)">
+            <a href="https://open.spotify.com/intl-es/album/1f2q2JQ3GFwIrWch2JLC0u">Mañana Será Bonito (Bichota Season)</a>
+        </section>
+        <section class="album">
+            <img src="https://i.scdn.co/image/ab67616d0000b27382de1ca074ae63cb18fce335" alt="Mañana Será Bonito">
+            <a href="https://open.spotify.com/intl-es/album/4kS7bSuU0Jm9LYMosFU2x5?si=DZmcfujjSxGu1TL6cNLreg">Mañana Será Bonito</a>
+        </section>
+        <section class="album">
+            <img src="https://static.fnac-static.com/multimedia/Images/FR/NR/1d/a8/bf/12560413/1540-1/tsp20210319145125/KG0516.jpg" alt="KG0516">
+            <a href="https://open.spotify.com/intl-es/album/5CS8E6JVACItYto4OOJoPW?si=rHVu00ncS_qE6PgQdo6X1Q">KG0516</a>
+        </section>
+        <section class="album">
+            <img src="https://i.scdn.co/image/ab67616d0000b273813d0c955d8224bd5f919a75" alt="Ocean">
+            <a href="https://open.spotify.com/intl-es/album/08uHazM9Ov0NvUqGUb5eQH?si=_Ix1NyMmTbO6fImPqOnWFw">Ocean</a>
+        </section>
+        <section class="album">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/ac/32/33ac328b-b70f-7a62-5416-21a498b75b44/17UM1IM33553.rgb.jpg/1200x1200bb.jpg" alt="Unstoppable">
+            <a href="https://open.spotify.com/intl-es/album/1QOJpYD40Z7VURMJ9U71iL?si=9gr-JpPpRSmU9v6XndDJlg">Unstoppable</a>
+        </section>
+    </main>
 </body>
 </html>
